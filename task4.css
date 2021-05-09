@@ -1,0 +1,73 @@
+
+.bg-image{
+    background-image: url(./img/paris.jpg);
+    height: 380px;
+    left: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    
+
+}
+
+.trip-container{
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+.trip{
+    border: 1px solid black;
+    position: fixed;
+    top: 220px;
+    width: 300px;
+    height: 170px;
+    border-radius: 10px;
+    border-color: #fa1e0e;
+    box-shadow:2px 2px 10px gray;
+    text-align: center ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #f05454;
+    font-size: 15px;
+    font-weight: lighter;
+    background-color: white;
+    
+    
+
+
+}
+.check1{
+    width: 50px;
+    height: 90px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.input{
+    
+    border-color:#fa1e0e;
+    border-width: thin;
+    height: 30px;
+    width: 225px;
+    border-radius: 5px;
+    box-shadow: 1px 1px rgb(184, 164, 164);
+}
+.add-button{
+    position: relative;
+    height: 30px;
+    width: 80px;
+    top: 10px;
+    left: 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: #f0554a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+
+}
